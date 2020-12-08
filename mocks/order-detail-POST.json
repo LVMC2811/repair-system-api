@@ -1,0 +1,96 @@
+{
+    "id": "1",
+    "details": {
+        "Alerones": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Codigos": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Copete": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Espejos": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Estribos": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Extintor": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Facia": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Gobernado": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Llantas": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Loderas": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Parabrisas": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Regobernado": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        },
+        "Spoilers": {
+            "has": true,
+            "images": [
+                "http://mylink1.com/image.jpg",
+                "http://mylink1.com/image.jpg"
+            ]
+        }
+    }
+}
