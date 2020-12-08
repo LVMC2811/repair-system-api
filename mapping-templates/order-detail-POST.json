@@ -1,0 +1,225 @@
+#set($inputRoot = $input.path('$'))
+{
+  "id": "$inputRoot.id",
+  "details": {
+    "Alerones": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Alerones.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Alerones.images)
+              { "S": "$elem" }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Codigos": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Codigos.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Codigos.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Copete": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Copete.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Copete.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Espejos": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Espejos.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Espejos.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Estribos": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Estribos.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Estribos.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Extintor": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Extintor.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Extintor.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Facia": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Facia.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Facia.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Gobernado": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Gobernado.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Gobernado.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Llantas": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Llantas.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Llantas.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Loderas": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Loderas.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Loderas.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Parabrisas": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Parabrisas.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Parabrisas.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Regobernado": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Regobernado.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Regobernado.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    },
+    "Spoilers": {
+      "M": {
+        "has": {
+          "BOOL": $inputRoot.details.Spoilers.has
+        },
+        "images": {
+          "L": [
+            #foreach($elem in $inputRoot.details.Spoilers.images)
+              {
+              "S": "$elem"
+            }
+            #if($foreach.hasNext),#end
+            #end
+          ]
+        }
+      }
+    }
+  }
+}
