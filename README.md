@@ -18,7 +18,7 @@ methods
   ..//
 mocks
   //...
-  Here you will find all the mocks of the API
+  Here you will find all the mocks of the API, to test post methods
   ..//
 models
   //...
