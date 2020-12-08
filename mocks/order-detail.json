@@ -1,0 +1,226 @@
+{
+    "id": "1",
+    "details": {
+        "Alerones": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Codigos": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Copete": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Espejos": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Estribos": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Extintor": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Facia": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Gobernado": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Llantas": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Loderas": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Parabrisas": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Regobernado": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        },
+        "Spoilers": {
+            "M": {
+                "has": {
+                    "BOOL": true
+                },
+                "images": {
+                    "L": [
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        },
+                        {
+                            "S": "http://mylink1.com/image.jpg"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
