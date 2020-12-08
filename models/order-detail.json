@@ -1,0 +1,209 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "details": {
+            "type": "object",
+            "properties": {
+                "Alerones": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Codigos": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Copete": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Espejos": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Estribos": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Extintor": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Facia": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Gobernado": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Llantas": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Loderas": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Parabrisas": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "ReceptionId": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Regobernado": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                },
+                "Spoilers": {
+                    "type": "object",
+                    "properties": {
+                        "has": {
+                            "type": "boolean"
+                        },
+                        "images": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
