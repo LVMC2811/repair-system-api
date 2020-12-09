@@ -1,0 +1,85 @@
+'use strict';
+
+var AWS = require('aws-sdk');
+
+var dynamo = new AWS.DynamoDB();
+
+exports.handler = function (event, context, callback) {
+    dynamo.query({
+        TableName: 'Reception-Order',
+        ProjectionExpression: 'EconomicNumber, CreationDate, DeliveredBy, Kilometers, OperatorId, ReceivedBy, ServiceType, Shop',
+        KeyConditionExpression: 'ReceptionId = :id',
+        ExpressionAttributeValues: { ':id': { S: event.id } }
+    }, function (err, data) {
+        loadReception(err, data, event.id, {}, callback);
+    });
+}
+
+
+function loadReception(err, data, id, reception, callback)
+{
+    if(err === null)
+    {
+        
+        var economicNumber = data.Items[0].EconomicNumber
+        var date = data.Items[0].CreationDate
+        var delivered = data.Items[0].DeliveredBy
+        var km = data.Items[0].Kilometers
+        var operator = data.Items[0].OperatorId
+        var received = data.Items[0].ReceivedBy
+        var service = data.Items[0].ServiceType
+        var shop = data.Items[0].Shop
+        
+        reception = 
+        {
+            'EconomicNumber': Object.values(economicNumber)[0],
+            'CreationDate': Object.values(date)[0],
+            'DeliveredBy': Object.values(delivered)[0],
+            'Kilometers': Object.values(km)[0],
+            'OperatorId': Object.values(operator)[0],
+            'ReceivedBy': Object.values(received)[0],
+            'ServiceType': Object.values(service)[0],
+            'Shop': Object.values(shop)[0]
+        }
+        
+        if(data.LastEvaluatedKey)
+        {
+            dynamo.query({
+                TableName: 'Reception-Order',
+                ProjectionExpression: 'EconomicNumber, Datetime, DeliveredBy, Kilometers, OperatorId, ReceivedBy, ServiceType, Shop',
+                KeyConditionExpression: 'ReceptionId = :id',
+                ExpressionAttributeValues: { ':id': { S: id } },
+                ExclusiveStartKey: data.LastEvaluatedKey
+            }, function(err, data){
+                loadReception(err, data, reception, callback);
+            });
+        }
+        else 
+        {
+            loadReceptionOrder(id, reception, callback);
+        }
+    }
+    else
+    {
+        callback(err);
+    }
+}
+
+function loadReceptionOrder(id, reception, callback) {
+    dynamo.query({
+        TableName: 'Reception-Order',
+        Select: 'ALL_ATTRIBUTES',
+        KeyConditionExpression: 'ReceptionId = :id',
+        ExpressionAttributeValues: { ':id': { S: id } }
+    }, function (err, data) {
+        if (err === null) {
+
+            callback(null, {
+                id: id,
+                reception: reception
+            });
+        } else {
+            callback(err);
+        }
+    });
+}
